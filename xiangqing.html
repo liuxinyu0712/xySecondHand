@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/style4.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>西邮二手-开启二手交易新时代</title>
+<script>
+window.onload=function()
+{
+	var oD=document.getElementById("head").getElementsByTagName("a")[0];
+	var oL=document.getElementById('login');
+	var oI1=document.getElementById('denglu').getElementsByTagName("input")[0];
+	var oI2=document.getElementById('denglu').getElementsByTagName("input")[1];
+	
+	oD.onclick=function()
+	{
+		oL.style.display="block"
+		return false;	
+	};
+	oI1.onfocus=oI2.onfocus=function()
+	{
+		this.value="";	
+	};
+};
+</script>
+</head>
+
+<body>
+<div id="head">
+	<div class="head">
+        <div class="head_one">
+            <span><span>您好</span>，欢迎来到西邮二手
+            <a  href="#">【登录】</a><a href="zhuce.html">【免费注册】</a>
+            </span>
+        </div>
+        <div class="head_one head_two">
+            <a href="shoucang.html">【我的收藏】</a><a href="wodefabu.html">【我的发布】</a>
+        </div>
+    </div>	
+</div>
+
+<div id="nav">
+	<a class="nav_left" href="index.html"><img src="images/XYES-logo.gif" height="80" width="170"/></a>
+    <div class="nav_right">
+    	<img src="images/wenzi.gif" />
+    </div>
+</div>
+
+<div id="content">
+	<div class="baobei">
+    	<p><img src="images/0.jpg" width="300"/></p>
+    </div>
+    <div class="xinxi">
+    	<h4> Java从入门到精通 第3版 </h4>
+        <p style="background-color:#D0D0D0; opacity:0.3;">价格：<b><span>¥26.8</span>（一口价）</b></p>
+        <p style="background-color:#D0D0D0; opacity:0.3;">新旧度：<b>全新</b></p>
+        <p>交易地点：<b>西安邮电大学</b></p>
+        <p>发布时间：<b>2014-06-08&nbsp;&nbsp;00:00:00</b></p>
+        <p>交易方式：<b>喜欢请自行联系卖家O(∩_∩)O~</b></p>
+        <p>宝贝描述：<b></b></p>
+        <input type="button" value="添加到收藏夹" />
+    </div>
+    <div class="maijia">
+        <h3>卖家信息</h3>
+        <p>卖家账号：<span>121323</span></p>
+        <p>卖家昵称：<span>轩轩不会fei</span></p>
+        <p>联系方式：<span>13798276523</span></p>
+        <div class="other">
+        	<h4>我猜你喜欢</h4>
+            <ul>
+            	<li>
+                	<a href="xiangqing.html"><img src="images/1.jpg" />
+                    <p>疯狂Java讲义（第3版 附光盘）</p><p><span>¥30.00</span></p></a>
+                </li>
+            	<li>
+                	<a href="xiangqing.html"><img src="images/2.jpg" />
+                    <p>Java编程思想 第4/四版中文版</p><p><span>¥21.00</span></p></a>
+                </li>
+            	<li>
+                	<a href="xiangqing.html"><img src="images/3.jpg" />
+                    <p> Java从入门到精通 第3版</p><p><span>¥22.00</span></p></a>
+                </li>
+        </div>
+    </div>
+</div>
+
+<div id="foot">
+	<p>本技术由***提供</p>
+</div>
+
+<div id="login">
+	<div class="beijing"></div>
+	<div class="denglu" id="denglu">
+		<h1>登录西邮二手账户<a href="xiangqing.html"></a></h1>
+        <input class="one" value="手机号/邮箱/用户名" type="text" />
+        <input class="one" value="密码" type="password" />
+        <p>
+        	<input type="checkbox" checked="checked" />下次自动登录
+        	<a href="zhuce.html">立即注册</a><a>忘记密码？</a>
+        </p>
+        <input class="two" value="登录" type="submit" />
+    </div>
+</div>
+
+</body>
+</html>

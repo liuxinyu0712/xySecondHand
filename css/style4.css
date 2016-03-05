@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,h1,h2,h3,h4,ul,li,a,p,dt,dd,dl,input,img,strong{margin:0; padding:0; list-style:none; border:0 none;}
+h1,h2,h3{font-size:100%;}
+body{font-family:"宋体"; font-size:12px; color:#666;}
+#head{width:100%; background:#f7f7f7;}
+#head .head{width:1210px; height:30px; line-height:30px; margin:0 auto;}
+#head .head_one{width:605px; float:left;}
+#head .head_two{text-align:right;}
+#head a{color:#666; text-decoration:none;}
+#head a:hover{color:#e4393c; text-decoration:underline;}
+         
+#nav{width:1180px; height:60px; margin:0 auto; padding:15px; overflow:hidden;}	
+#nav .nav_left{width:330px; float:left;}
+#nav .nav_right{width:750px; float:left;}
+
+#content{width:1180px; padding:15px; margin:0 auto; border:1px solid #E8E8E8; overflow:hidden;}
+#content .baobei{width:350px; float:left;}
+#content .baobei p{width:300px; margin:0 auto;}
+#content .xinxi{width:500px; float:left;}
+#content .xinxi h4{line-height:30px; font-size:18px; margin-bottom:20px; font-weight:bold;}
+#content .xinxi p{line-height:40px; font-weight:bold; color:#6c6c6c; padding-left:30px;}
+#content .xinxi p b{color:#000;}
+#content .xinxi p span{font-weight:normal; font-size:24px; color:#000;}
+#content .xinxi strong{color:#000; line-height:280px;}
+#content .xinxi input{width:100px; height:30px; line-height:30px; text-align:center; border:1px solid #ccc; border-radius:3px; margin:50px 30px;}
+#content .maijia{width:328px; float:left; border:1px solid #f7f7f7;}
+#content .maijia h3{background:url(../images/maijia-bg.png) repeat-x; height:80px; line-height:80px; text-align:center;}
+#content .maijia p{line-height:30px; font-size:18px; padding-left:20px;}
+#content .maijia .other{width:290px; margin:30px 20px;}
+#content .maijia .other h4{height:50px; line-height:50px;}
+#content .maijia .other ul{width:289px; height:245px;}
+#content .maijia .other ul li{margin:10px 0; overflow:hidden; width:289px;}
+#content .maijia .other ul li:hover{ border:1px solid #f1f1f1;}
+#content .maijia .other ul li a{color:#666;}
+#content .maijia .other ul li img{width:80px; height:80px; float:left; display:block;}
+#content .maijia .other ul li p{width:180px; line-height:30px; float:left; font-size:14px;}
+#content .maijia .other ul li p span{font-size:18px; color:#e4393c;}
+
+#foot{width:100%; height:50px; line-height:50px; background:#a5a5a5; margin-top:20px;}
+#foot p{width:1210px; margin:0 auto; text-align:center;}
+
+#login{width:100%; height:100%; position:absolute; top:0; left:0; display:none;}
+#login .beijing{width:100%; height:100%; position:absolute; background:#d9d9d9; top:0; left:0; filter: alpha(opacity=70); opacity:0.7; z-index:19;}
+#login .denglu{width:380px; height:400px; background:#fff; top:100px; left:500px; z-index:20; position:absolute;}
+#login .denglu h1{width:350px; height:50px; line-height:50px; padding-left:30px; background:#f7f7f7; font-weight:600; font-size:16px;}
+#login .denglu h1 a{background:url(../images/guanbi.jpg) no-repeat center center;}
+#login .denglu .one{width:320px; height:35px; line-height:35px; border:1px solid #ddd; margin:15px auto 0; display:block; padding:5px; color:#ccc;}
+#login .denglu p{width:330px; line-height:35px; margin-left:25px;}
+#login .denglu a{color:#e4393c; text-decoration:none; width:70px; height:35px; display:inline-block; text-align:right; float:right;}
+#login .denglu a:hover{ text-decoration:underline;}
+#login .denglu .two{width:270px; height:40px; text-align:center; line-height:40px; margin:30px auto; display:block; background:#E4393C; color:#fff; font-size:16px;}

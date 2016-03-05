@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,h1,h2,h3,ul,li,a,p,dt,dd,dl,input,img,strong{margin:0; padding:0; list-style:none; border:0 none;}
+h1,h2,h3{font-size:100%;}
+body{font-family:"宋体"; font-size:12px; color:#666;}
+#head{width:100%; background:#f7f7f7;}
+#head .head{width:1210px; height:30px; line-height:30px; margin:0 auto;}
+#head .head_one{width:605px; float:left;}
+#head .head_two{text-align:right;}
+#head a{color:#666; text-decoration:none;}
+#head a:hover{color:#e4393c; text-decoration:underline;}
+         
+#nav{width:1180px; height:60px; margin:0 auto; padding:15px 0;overflow:hidden;}	
+#nav .nav_left{width:330px; float:left;}
+#nav .nav_right{width:750px; float:left;}
+#nav .text{width:500px; height:20px; line-height:20px; color:#999; padding:5px; border:3px solid #E4393C; float:left;}
+#nav .button{width:78px; background:none repeat scroll 0 0 #E4393C; color:#FFF; font-size:14px; font-weight:700; height:36px; float:left; cursor: pointer;}
+#nav .hot{width:750px; color:#999; height:20px; line-height:20px; clear:left;}
+#nav .hot a{color:#999; text-decoration:none; margin-right:10px;}
+#nav .hot a:hover{color:#e4393c; text-decoration:underline;}
+
+#content{width:1210px; height:50px; margin:0 auto 20px; overflow:hidden; border-bottom:1px solid #e4393c; background:url(../images/wenzi.gif) no-repeat 800px center; padding-bottom:20px;}
+
+#form{width:1210px; margin:0 auto; overflow:hidden;}
+#form .form_left{width:800px; float:left;}
+#form .form_left .formL_top{border-bottom:3px dotted #E43E41;} 
+#form .form_left .formL_top h3{height:40px; line-height:40px; font-size:24px;}
+#form .form_left .formL_top button{display:block; line-height:30px; background:#A8D300; color:#fff; filter: alpha(opacity=70); opacity:0.7;}
+#form .form_left .xinxi{width:700px; margin:20px 0 0 30px; overflow:hidden;}
+#form .form_left .xinxi label{width:100px; height:30px; line-height:30px; text-align:right; color:#000; display:inline-block; margin-right:15px; float:left;}
+#form .form_left .xinxi input{border: 1px solid #CCC; height:30px; line-height:30px; width:300px; padding:2px 5px; color:#666; font-size:12px;}
+#form .form_left .xinxi .form_but{width:315px; float:left; padding:auto 0;}
+#form .form_left .xinxi span{line-height:30px;}
+#form .form_left .xinxi textarea{width:300px; height:300px; padding:5px; overflow:hidden; color:#666; font-size:12px;}
+#form .form_left .fabu{margin:50px 145px; background:#E4393C; display:block; color:#FFF; text-align:center; width:200px; height:50px; line-height:50px;}
+#form .form_right{width:310px; float:right; padding:50px;}
+
+#foot{width:100%; height:50px; line-height:50px; background:#a5a5a5; margin-top:20px;}
+#foot p{width:1210px; margin:0 auto; text-align:center;}
+
+#login{width:100%; height:100%; position:absolute; top:0; left:0; display:none;}
+#login .beijing{width:100%; height:100%; position:absolute; background:#d9d9d9; top:0; left:0; filter: alpha(opacity=70); opacity:0.7; z-index:19;}
+#login .denglu{width:380px; height:400px; background:#fff; top:100px; left:500px; z-index:20; position:absolute;}
+#login .denglu h1{width:350px; height:50px; line-height:50px; padding-left:30px; background:#f7f7f7; font-weight:600; font-size:16px;}
+#login .denglu h1 a{background:url(../images/guanbi.jpg) no-repeat center center;}
+#login .denglu .one{width:320px; height:35px; line-height:35px; border:1px solid #ddd; margin:15px auto 0; display:block; padding:5px; color:#ccc;}
+#login .denglu p{width:330px; line-height:35px; margin-left:25px;}
+#login .denglu a{color:#e4393c; text-decoration:none; width:70px; height:35px; display:inline-block; text-align:right; float:right;}
+#login .denglu a:hover{ text-decoration:underline;}
+#login .denglu .two{width:270px; height:40px; text-align:center; line-height:40px; margin:30px auto; display:block; background:#E4393C; color:#fff; font-size:16px;}
+

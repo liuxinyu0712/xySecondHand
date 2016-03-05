@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>西邮二手-开启二手交易新时代</title>
+	<script type="text/javascript" src="jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="jquery-list.js"></script>
+<script>
+window.onload=function()
+{
+	var oD=document.getElementById("head").getElementsByTagName("a")[0];
+	var oL=document.getElementById('login');
+	var oI1=document.getElementById('denglu').getElementsByTagName("input")[0];
+	var oI2=document.getElementById('denglu').getElementsByTagName("input")[1];
+	
+	oD.onclick=function()
+	{
+		oL.style.display="block"
+		return false;	
+	};
+	oI1.onfocus=oI2.onfocus=function()
+	{
+		this.value="";	
+	};
+};
+
+var i=0;
+
+$(function() {
+		    
+			if(window.chrome) {
+				$('.banner li').css('background-size', '100% 100%');
+			}
+
+			$('.banner').unslider({
+				arrows: true,
+				fluid: true,
+				dots: true
+			});
+				
+			$('.mainCate').each(function(){
+				$(this).mouseover(function(e){
+					$(this).find('.subCate').show();
+			})});
+			$('.mainCate').each(function(){
+				$(this).mouseout(function(e){
+					$(this).find('.subCate').hide();
+					;
+			})});
+				
+			/*
+			$('.subCate').each(function(){
+				$(this).mouseout(function(e){
+					$(this).show();
+			})})
+			
+			$('.mainCate').each(function(){
+				$(this).mouseout(function(e){
+				if(i){
+					function(e){
+							$(this).find('.subCate').hide();
+							i=1;
+						}
+					}
+				else
+					{
+						function(e){
+							$(this).find('.subCate').show();
+							i=0;
+						}
+					}
+			})});*/
+					
+		});
+</script>
+</head>
+
+<body>
+<div id="head">
+	<div class="head">
+        <div class="head_one">
+            <span><span>您好</span>，欢迎来到西邮二手
+            <a  href="#">【登录】</a><a href="zhuce.html">【免费注册】</a>
+            </span>
+        </div>
+        <div class="head_one head_two">
+            <a href="shoucang.html">【我的收藏】</a><a href="wodefabu.html">【我的发布】</a>
+        </div>
+    </div>	
+</div>
+
+<div id="nav">
+	<a class="nav_left"><img src="images/XYES-logo.gif" height="80" width="170"/></a>
+    <div class="nav_right">
+    	<input class="text" type="text" />
+        <a href="shangpin.html"><input class="button" type="button" value="搜索" /></a>
+        <div class="hot">
+        	<strong>热门搜索：</strong>
+        	<a href="#">0元秒影票</a>
+        	<a href="#">DIY破盘汇</a>
+            <a href="#">1折秒家电</a>
+            <a href="#">决战618</a>
+            <a href="#">吃货必点</a>
+            <a href="#">G730</a>
+            <a href="#">讲谈社</a>
+        </div>
+    </div>
+</div>
+  
+<div id="content">
+    <div class="con_left">
+      <h2>西邮二手特色</h2>
+      <ul id="nav_l">    
+        <li class="mainCate">
+          <h3><span>&gt;</span>书籍</h3>
+          <p><a href="#">通信类</a><a href="#">计算机类</a><a href="#">贵州</a></p>
+          <p><a href="#">自动化类</a><a href="#">浓香型</a><a href="#">电子工程</a></p>
+          <div class="subCate">
+            <ul>
+              <h4>书籍</h4>
+              <li> <span><a href="#">通信类</a><a href="#">计算机类</a><a href="#">电子工程</a><a href="#">自动化类</a><a href="#">经管类</a></span></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mainCate">
+          <h3><span>&gt;</span>服饰</h3>
+          <p><a href="#">男装</a><a href="#">男鞋</a><a href="#">女装</a></p>
+          <p><a href="#">女鞋</a><a href="#">浓香型</a><a href="#">贵州</a></p>
+          <div class="subCate">
+            <ul>
+              <h4>服饰</h4>
+              <li> <span><a href="#">男装</a><a href="#">男鞋</a><a href="#">女装</a><a href="#">女鞋</a><a href="#">汾酒</a></span></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mainCate">
+          <h3><span>&gt;</span>白酒</h3>
+          <p><a href="#">茅台</a><a href="#">五粮液</a><a href="#">国窖1573</a></p>
+          <p><a href="#">酱香型</a><a href="#">浓香型</a><a href="#">贵州</a></p>
+          <div class="subCate">
+            <ul>
+              <h4>品牌</h4>
+              <li> <span><a href="#">茅台</a><a href="#">五粮液</a><a href="#">国窖1573</a><a href="#">郎酒</a><a href="#">汾酒</a></span></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mainCate">
+          <h3><span>&gt;</span>白酒</h3>
+          <p><a href="#">茅台</a><a href="#">五粮液</a><a href="#">国窖1573</a></p>
+          <p><a href="#">酱香型</a><a href="#">浓香型</a><a href="#">贵州</a></p>
+          <div class="subCate">
+            <ul>
+              <h4>品牌</h4>
+              <li> <span><a href="#">茅台</a><a href="#">五粮液</a><a href="#">国窖1573</a><a href="#">郎酒</a><a href="#">汾酒</a></span></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mainCate">
+          <h3><span>&gt;</span>其他</h3>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="con_right">
+    	<h2><img class="img" src="images/wenzi.gif" /><p><img src="images/tianjia.png" /><a href="fabu.html">发布宝贝</a></p></h2>
+        <div class="cont_l">
+        	<div class="play banner">
+                <ul>
+                    <li><a href="xiangqing.html"><img src="images/big-01.jpg"/></a></li>
+                    <li><a href="xiangqing.html"><img src="images/big-02.jpg" /></a></li>
+                    <li><a href="xiangqing.html"><img src="images/big-03.jpg" /></a></li>
+                    <li><a href="xiangqing.html"><img src="images/big-04.jpg" /></a></li>
+                    <li><a href="xiangqing.html"><img src="images/big-05.jpg" /></a></li>
+                </ul>
+                <ol class="dots">
+                    <li class="dot active">1</li>
+                    <li class="dot">2</li>
+                    <li class="dot">3</li>
+                    <li class="dot">4</li>
+                    <li class="dot">5</li>
+                </ol>
+			</div>
+        </div>
+        <div class="cont_r">
+        	<h3>交易指南</h3>
+            <p>沃格尔：詹姆斯是本时代的乔丹 我们在和乔丹对抗
+
+芬森连续挑衅詹皇热火不干 哈队回应：我要干死你
+
+詹皇：沃格尔的话让我受宠若惊 芬森吃了判罚的亏
+
+韦德：总决赛对手是来复仇的 不能重蹈2011年覆辙
+
+步行者今夏恐重组阵容 乔治:能和芬森一起打球很棒
+
+快船转手金额令詹姆斯震惊:十亿前还有数那是大钱
+
+特色今日神吐槽：逗比芬森爱詹皇 奥登父子弄晕众人</p>
+        </div>
+    </div>
+</div>  
+<div id="display">
+	<div class="box">
+    	<h3>书籍</h3>
+        <ul>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        </ul>
+    </div>
+ 	<div class="box">
+    	<h3>书籍</h3>
+        <ul>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        	<li><a href="xiangqing.html">
+                <img src="images/shu-01.jpg" />
+                <p>陆犯焉识（新版）张艺谋电影《归来》原著小说</p>
+                <span>¥28.60</span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="foot">
+	<p>本技术由***提供</p>
+</div>
+
+<div id="login">
+	<div class="beijing"></div>
+	<div class="denglu" id="denglu">
+		<h1>登录西邮二手账户<a href="index.html"></a></h1>
+        <input class="one" value="手机号/邮箱/用户名" type="text" />
+        <input class="one" value="密码" type="password" />
+        <p>
+        	<input type="checkbox" checked="checked" />下次自动登录
+        	<a href="zhuce.html">立即注册</a><a>忘记密码？</a>
+        </p>
+        <input class="two" value="登录" type="submit" />
+    </div>
+</div>
+</body>
+</html>

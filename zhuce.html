@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/style1.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>西邮二手-开启二手交易新时代</title>
+<script>
+window.onload=function()
+{
+	var oD=document.getElementById("head").getElementsByTagName("a")[0];
+	var oD1=document.getElementById("content").getElementsByTagName("a")[0];
+	var oL=document.getElementById('login');
+	var oI1=document.getElementById('denglu').getElementsByTagName("input")[0];
+	var oI2=document.getElementById('denglu').getElementsByTagName("input")[1];
+	oD.onclick=oD1.onclick=function()
+	{
+		oL.style.display="block"
+		return false;	
+	};
+	oI1.onfocus=oI2.onfocus=function()
+	{
+		this.value="";	
+	};
+};
+</script>
+</head>
+
+<body>
+<div id="head">
+	<div class="head">
+        <div class="head_one">
+            <span><span>您好</span>，欢迎来到西邮二手
+            <a  href="#">【登录】</a><a href="zhuce.html">【免费注册】</a>
+            </span>
+        </div>
+        <div class="head_one head_two">
+            <a href="shoucang.html">【我的收藏】</a><a href="wodefabu.html">【我的发布】</a>
+        </div>
+    </div>	
+</div>
+
+<div id="nav">
+	<a class="nav_left" href="index.html"><img src="images/XYES-logo1.jpg" height="80" width="170"/></a>
+    <div class="nav_right"></div>
+</div>
+  
+<div id="content">
+	<div class="con_left">
+    	<img src="images/chenou.jpg" width="250" />
+    </div>
+    <div class="con_right">
+    	<p>我已注册，现在就<a href="#">登录</a></p>
+    	<h2>填写个人信息</h2>
+        <ul>
+        	<li><span>账户名：</span><input type="text" /></li>
+            <li><span>请设置密码：</span><input type="password" /></li>
+            <li><span>请确认密码：</span><input type="password" /></li>
+            <li><span>请设置密保问题：</span><input type="text" /></li>
+            <li><span>请输入密保答案：</span><input type="text" /></li>
+            <li><input class="zhuce" type="submit" value="立即注册" /></li>
+        </ul>
+    </div>
+</div>   
+
+<div id="foot">
+	<p>本技术由***提供</p>
+</div>
+
+<div id="login">
+	<div class="beijing"></div>
+	<div class="denglu" id="denglu">
+		<h1>登录西邮二手账户<a href="zhuce.html"></a></h1>
+        <input class="one" value="手机号/邮箱/用户名" type="text" />
+        <input class="one" value="密码" type="password" />
+        <p>
+        	<input type="checkbox" checked="checked" />下次自动登录
+        	<a href="zhuce.html">立即注册</a><a>忘记密码？</a>
+        </p>
+        <input class="two" value="登录" type="submit" />
+    </div>
+</div>
+</body>
+</html>

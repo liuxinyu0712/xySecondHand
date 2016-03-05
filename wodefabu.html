@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/style6.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>西邮二手-开启二手交易新时代</title>
+<script>
+window.onload=function()
+{
+	var oD=document.getElementById("head").getElementsByTagName("a")[0];
+	var oL=document.getElementById('login');
+	var oI1=document.getElementById('denglu').getElementsByTagName("input")[0];
+	var oI2=document.getElementById('denglu').getElementsByTagName("input")[1];
+	
+	oD.onclick=function()
+	{
+		oL.style.display="block"
+		return false;	
+	};
+	oI1.onfocus=oI2.onfocus=function()
+	{
+		this.value="";	
+	};
+};
+</script>
+</head>
+
+<body>
+<div id="head">
+	<div class="head">
+        <div class="head_one">
+            <span><span>您好</span>，欢迎来到西邮二手
+            <a  href="#">【登录】</a><a href="zhuce.html">【免费注册】</a>
+            </span>
+        </div>
+        <div class="head_one head_two">
+            <a href="shoucang.html">【我的收藏】</a><a href="wodefabu.html">【我的发布】</a>
+        </div>
+    </div>	
+</div>
+
+<div id="nav">
+	<a class="nav_left" href="index.html"><img src="images/XYES-logo.gif" height="80" width="170"/></a>
+    <div class="nav_right">
+    	<input class="text" type="text" />
+        <a href="shangpin.html"><input class="button" type="button" value="搜索" /></a>
+        <div class="hot">
+        	<strong>热门搜索：</strong>
+        	<a href="#">0元秒影票</a>
+        	<a href="#">DIY破盘汇</a>
+            <a href="#">1折秒家电</a>
+            <a href="#">决战618</a>
+            <a href="#">吃货必点</a>
+            <a href="#">G730</a>
+            <a href="#">讲谈社</a>
+        </div>
+    </div>
+</div>
+
+<div id="content">
+	<div class="wode">
+    	我的发布
+    </div>
+	<div class="line">
+    	<ul>
+        	<li class="line_one">商品信息</li>
+        	<li class="line_two">卖家描述</li>
+        	<li class="line_three">价格</li>
+        	<li class="line_three">操作</li>
+        	<li class="line_three">宝贝状态</li>
+        </ul>
+    </div>
+	<div class="content">
+    	<h3>卖家账号:</h3>
+        <ul>
+        	<li class="cont_one"><a href="xiangqing.html"><img src="images/shoucang.jpg" width="80" height="80" /></a><a href="xiangqing.html"><p>2014夏季新款女装打底衫百搭韩版修身棉短袖T白色半袖t恤女 </p></a></li>
+            <li class="cont_two">描述</li>
+            <li class="cont_three"><span>¥26.80</span></li>
+            <li class="cont_three"><a href="#">修改</a></li>
+            <li class="cont_three">此宝贝已售</li>
+        </ul>
+    </div>
+    <div class="content">
+    	<h3>卖家账号:</h3>
+        <ul>
+        	<li class="cont_one"><a href="xiangqing.html"><img src="images/shoucang.jpg" width="80" height="80" /></a><a href="xiangqing.html"><p>2014夏季新款女装打底衫百搭韩版修身棉短袖T白色半袖t恤女 </p></a></li>
+            <li class="cont_two">描述</li>
+            <li class="cont_three"><span>¥26.80</span></li>
+            <li class="cont_three"><a href="fabu.html">修改</a></li>
+            <li class="cont_three">此宝贝已售</li>
+        </ul>
+    </div><div class="content">
+    	<h3>卖家账号:</h3>
+        <ul>
+        	<li class="cont_one"><a href="xiangqing.html"><img src="images/shoucang.jpg" width="80" height="80" /></a><a href="xiangqing.html"><p>2014夏季新款女装打底衫百搭韩版修身棉短袖T白色半袖t恤女 </p></a></li>
+            <li class="cont_two">描述</li>
+            <li class="cont_three"><span>¥26.80</span></li>
+            <li class="cont_three"><a href="#">修改</a></li>
+            <li class="cont_three">此宝贝已售</li>
+        </ul>
+    </div>
+</div>
+
+<div id="foot">
+	<p>本技术由***提供</p>
+</div>
+
+<div id="login">
+	<div class="beijing"></div>
+	<div class="denglu" id="denglu">
+		<h1>登录西邮二手账户<a href="xiangqing.html"></a></h1>
+        <input class="one" value="手机号/邮箱/用户名" type="text" />
+        <input class="one" value="密码" type="password" />
+        <p>
+        	<input type="checkbox" checked="checked" />下次自动登录
+        	<a href="zhuce.html">立即注册</a><a>忘记密码？</a>
+        </p>
+        <input class="two" value="登录" type="submit" />
+    </div>
+</div>
+
+</body>
+</html>

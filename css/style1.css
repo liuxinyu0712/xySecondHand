@@ -1,0 +1,48 @@
+@charset "utf-8";
+@charset "utf-8";
+/* CSS Document */
+
+body,div,h1,h2,h3,ul,li,a,p,dt,dd,dl,input,img,strong{margin:0; padding:0; list-style:none; border:0 none;}
+h1,h2,h3{font-size:100%;}
+body{font-family:"宋体"; font-size:12px; color:#666; background-color:#f2f2f2;}
+#head{width:100%; background:#f7f7f7;}
+#head .head{width:1210px; height:30px; line-height:30px; margin:0 auto;}
+#head .head_one{width:605px; float:left;}
+#head .head_two{text-align:right;}
+#head a{color:#666; text-decoration:none;}
+#head a:hover{color:#e4393c; text-decoration:underline;}
+         
+#nav{width:1208px; height:60px; margin:0 auto; padding:15px 0; border-bottom:1px solid #E4393C;}	
+#nav .nav_left{width:170px; float:left;}
+#nav .nav_right{width:111px; height:46px; float:left; border-left:1px solid #e0e0e0; background:url(../images/regist-word.png) no-repeat; padding-left:20px; margin:8px 25px;}
+
+#content{width:1210px; height:auto; margin:20px auto; overflow:hidden;}
+#content .con_left{width:600px; float:left;}
+#content .con_left img{margin:0 auto; display:block;}
+#content .con_right{width:610px; float:left; margin:0 auto;}
+#content .con_right p{text-align:right; font-size:12px; line-height:30px; padding-right:10px;}
+#content .con_right p a{color:#005AA0; text-decoration:none;}
+#content .con_right p a:hover{text-decoration:underline; color:#E4393C;}
+#content .con_right h2{background:#E4393C; height:35px; line-height:35px; color:#fff; padding:0 10px; font-size:14px;}
+#content .con_right ul{border:1px solid #E4393C; padding:40px 10px; background:#FFF; color:#a5a5a5;}
+#content .con_right ul li{height:40px; line-height:40px; font-size:16px; margin:10px 5px;}
+#content .con_right ul li span{text-align:right; width:130px; display:inline-block;}
+#content .con_right ul li input{border:1px solid #a5a5a5; width:400px; height:35px; line-height:35px; border-radius:3px;}
+#content .con_right ul li .zhuce{width:200px; margin:20px 0 0 190px; background:#E33A3D; border:0 none;}
+
+#foot{width:100%; height:50px; line-height:50px; background:#A5A5A5; margin-top:20px;}
+#foot p{width:1210px; margin:0 auto; text-align:center;}
+
+#login{width:100%; height:100%; position:absolute; top:0; left:0; display:none;}
+#login .beijing{width:100%; height:100%; position:absolute; background:#d9d9d9; top:0; left:0; filter: alpha(opacity=70); opacity:0.7; z-index:19;}
+#login .denglu{width:380px; height:400px; background:#fff; top:100px; left:500px; z-index:20; position:absolute;}
+#login .denglu h1{width:350px; height:50px; line-height:50px; padding-left:30px; background:#f7f7f7; font-weight:600; font-size:16px;}
+#login .denglu h1 a{background:url(../images/guanbi.jpg) no-repeat center center;}
+#login .denglu .one{width:320px; height:35px; line-height:35px; border:1px solid #ddd; margin:15px auto 0; display:block; padding:5px; color:#ccc;}
+#login .denglu p{width:330px; line-height:35px; margin-left:25px;}
+#login .denglu a{color:#e4393c; text-decoration:none; width:70px; height:35px; display:inline-block; text-align:right; float:right;}
+#login .denglu a:hover{ text-decoration:underline;}
+#login .denglu .two{width:270px; height:40px; text-align:center; line-height:40px; margin:30px auto; display:block; background:#E4393C; color:#fff; font-size:16px;}
+
+
+
